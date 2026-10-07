@@ -1,0 +1,14 @@
+[server]
+# Evita avisos do watcher do Streamlit com o PyTorch (sentence-transformers).
+fileWatcherType = "none"
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#F28C28"          # laranja de segurança industrial
+backgroundColor = "#14181F"
+secondaryBackgroundColor = "#1E2530"
+textColor = "#E6E9EE"
